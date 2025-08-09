@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            background: white;
+            padding: 10px 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar li {
+            position: relative;
+            list-style: none;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 8px;
+            display: block;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            display: none;
+            padding: 20px;
+            width: 800px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .dropdown-column {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .navbar li:hover .dropdown {
+            display: grid;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <ul class="navbar">
+        <li>
+            <a href="#">Makeup</a>
+            <div class="dropdown">
+                <div class="dropdown-column">
+                    <strong>Face</strong>
+                    <a href="#">Foundation</a>
+                    <a href="#">Concealer</a>
+                    <a href="#">Blush</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Eyes</strong>
+                    <a href="#">Kajal</a>
+                    <a href="#">Mascara</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Lips</strong>
+                    <a href="#">Lipstick</a>
+                    <a href="#">Lip Gloss</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Brands</strong>
+                    <a href="#">MAC</a>
+                    <a href="#">Maybelline</a>
+                </div>
+            </div>
+        </li>
+
+        <li><a href="#">Skin</a></li>
+        <li><a href="#">Hair</a></li>
+    </ul>
+</body>
+
+</html>

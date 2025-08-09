@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Menbere:wght@100..700&family=Playwrite+AU+QLD:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./images/Icon.png">
+    <link rel="stylesheet" href="./makeup_style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar sticky-top">
+        <a class="navbar-brand" href="./home.html">
+            <img src="./images/Icon.png" alt="Logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarContent">
+            <ul class="navbar-nav ml-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Brands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Luxe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nykaa Fashion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Beauty Advice</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="search-input mr-sm-2" type="search" placeholder="Search on PP's" aria-label="Search">
+                <a href="#" class="icon-btn"><i class="bi bi-gift"></i></a>
+                <a href="#" class="icon-btn"><i class="bi bi-bag"></i></a>
+            </form>
+        </div>
+    </nav>
+
+    <ul class="nav justify-content-center second-nav shadow-sm bg-whit sticky-top">
+        <li class="nav-item">
+            <a class="nav-link" href="./makeup.html" target="_blank">Makeup</a>
+            <div class="dropdown">
+                <div class="dropdown-column">
+                    <a href="#face"><strong>Face</strong></a>
+                    <a href="#face">Foundation</a>
+                    <a href="#face">Concealer</a>
+                    <a href="#face">Blush</a>
+                    <a href="#face">Compact</a>
+                    <a href="#face">Sindoor</a>
+                    <a href="#face">Loose Powder</a>
+                    <a href="#face">Face Primer</a>
+                    <a href="#face">Bronzer</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Eyes</strong>
+                    <a href="#eyes">Kajal</a>
+                    <a href="#eyes">Eyeliner</a>
+                    <a href="#eyes">Eye Primer</a>
+                    <a href="#eyes">Contact lenses</a>
+                    <a href="#eyes">Eyeshadow</a>
+                    <a href="#eyes">Mascara</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Lips</strong>
+                    <a href="#lips">Lipstick</a>
+                    <a href="#lips">Lip Gloss</a>
+                    <a href="#lips">Lip Liner</a>
+                    <a href="#lips">Lip Tint</a>
+                    <a href="#lips">Liquid Lipstick</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Nails</strong>
+                    <a href="#nails">Nail Polish</a>
+                    <a href="#nails">Nail Care</a>
+                    <a href="#nails">Nail Art Kits</a>
+                </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./skin.html">Skin</a>
+            <div class="dropdown">
+                <div class="dropdown-column">
+                    <strong>Moisturizers</strong>
+                    <a href="#">Face Moisturizer</a>
+                    <a href="#">Cream</a>
+                    <a href="#">Face Oils</a>
+                    <a href="">Night Cream</a>
+                    <a href="">Gels & Creams</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Cleansers</strong>
+                    <a href="#">Face Wash</a>
+                    <a href="">Cleanser</a>
+                    <a href="">Micellar Water</a>
+                    <a href="">Face Wipes</a>
+                    <a href="">Makeup Remover</a>
+                    <a href="#">Scrubs & Exfoliators</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Masks</strong>
+                    <a href="#">Sheet Masks</a>
+                    <a href="#">Sleeping Masks</a>
+                    <a href="">Face Masks</a>
+                    <a href="">Face Bleash</a>
+                    <a href="">Masks & Peels</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Toners</strong>
+                    <a href="#">Toners & Mists</a>
+                    <a href="#">Rose Water</a>
+                </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./hair.html">Hair</a>
+            <div class="dropdown">
+                <div class="dropdown-column">
+                    <strong>Hair Care</strong>
+                    <a href="#">Shampoo</a>
+                    <a href="#">Dry Shampoo</a>
+                    <a href="#">Conditioner</a>
+                    <a href="">Hair Serum</a>
+                    <a href="">Hair Mask</a>
+                    <a href="">hair Supplements</a>
+                    <a href="">Leave-In Conditioner</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Tools & Accessories</strong>
+                    <a href="#">Hair Brushes</a>
+                    <a href="">hair Combs</a>
+                    <a href="">Straighteners</a>
+                    <a href="">Rollers and Curlers</a>
+                    <a href="">Hair Extensions</a>
+                    <a href="#">Hair Accessories</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Hair Styling</strong>
+                    <a href="#">Hair Color</a>
+                    <a href="#">Hair Spray</a>
+                    <a href="">Gels & Waxes</a>
+                </div>
+                <div class="dropdown-column">
+                    <strong>Nails</strong>
+                    <a href="#">Nail Polish</a>
+                    <a href="#">Nail Care</a>
+                    <a href="">Nail Art Kits</a>
+                </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Appliances</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Bath & Body</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Natural</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Mom & Baby</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Health & Wellness</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Fragrance</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Lingerie & Accessories</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link offers-badge" href="#">OFFERS</a>
+        </li>
+    </ul>
+
+    <!-- ---------- MAKEUP ----------- -->
+
+    <h1 id="face">Face Products!!!</h1>
+    <div class="container-fluid">
+        <div class="card">
+            <h2 class="title">Foundation</h2>
+            <img src="https://lustminerals.com.au/cdn/shop/files/17_ffef8223-c0e0-4dc7-a68e-5206cbecd332.png?v=1692321049&width=1080"
+                alt="">
+            <br>
+            <span style="color: red;">33% off</span> - $24,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Concealer</h2>
+            <img src="https://www.coloressence.com/cdn/shop/files/TimetoPrimeFullCoverageConcealer-1100X1100-2_076c28e5-b034-46fa-9fa5-b159e2590518.jpg?v=1711177180"
+                alt="">
+            <br>
+            <span style="color: red;">45% off</span> - $33,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Blush</h2>
+            <img src="https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/000000000494284948/_dm44FVGHU-000000000494284948_7.jpg"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Compact</h2>
+            <img src="https://images-static.nykaa.com/media/catalog/product/e/a/ea0b5e28906159995742_1.jpg?tr=w-500"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Sindoor</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tiH_7ABU7J5nhBXg9L3NaMRCR4N3eBD9AQ&s"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Loose Powder</h2>
+            <img src="https://media6.ppl-media.com//tr:h-235,w-235,c-at_max,dpr-2/static/img/product/344786/ny-bae-banana-loose-powder-5-8-ml-18-15_5_display_1692244264_ce5d0879.jpg"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Face Primer</h2>
+            <img src="https://m.media-amazon.com/images/I/415RBDfJWCL._UF1000,1000_QL80_.jpg" alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Bronzer</h2>
+            <img src="https://images-static.nykaa.com/media/catalog/product/8/4/844f6bcCOLAA00000070_1.jpg" alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+    </div>
+
+    <h1 id="eyes">Eyes Products!!!</h1>
+    <div class="container-fluid">
+        <div class="card">
+            <h2 class="title">Kajal</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0014/3514/0183/files/24272_S3-8901030979545_800x.jpg?v=1710236398"
+                alt="">
+            <br>
+            <span style="color: red;">33% off</span> - $24,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Eyeliner</h2>
+            <img src="https://juicecosmetics.in/cdn/shop/files/SE-EYELINER.jpg?v=1745927169" alt="">
+            <br>
+            <span style="color: red;">45% off</span> - $33,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Eye Primer</h2>
+            <img src="https://rukminim2.flixcart.com/image/704/844/xif0q/primer/f/6/l/11-liquid-matte-eyeshadow-primer-gulglow99-original-imah6ehdbumpfjjr.jpeg?q=90&crop=false"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Contact Lenses</h2>
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2024/6/430150331/OW/VW/AX/218568453/product-jpeg-500x500.jpg"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Eyeshadow</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0014/3514/0183/files/24867_S2-8901030990670_800x.jpg?v=1738931923"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Mascara</h2>
+            <img src="https://images-static.nykaa.com/media/catalog/product/6/f/6fd8179MAYBE00000375_1.jpg?tr=w-500"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+    </div>
+
+    <h1 id="lips">Lips Products!!!</h1>
+    <div class="container-fluid">
+        <div class="card">
+            <h2 class="title">Lipstick</h2>
+            <img src="https://images-static.nykaa.com/media/catalog/product/b/5/b560771773602685189_2.png?tr=w-500"
+                alt="">
+            <br>
+            <span style="color: red;">33% off</span> - $24,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Lip Gloss</h2>
+            <img src="https://mnuskin.in/cdn/shop/files/M_Ufearlesspeachpinkhighshinelipgloss_6cf24b6f-2bbf-4e8b-9bdc-b855d14a258b.png?v=1713806753&width=1445"
+                alt="">
+            <br>
+            <span style="color: red;">45% off</span> - $33,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Lip Liner</h2>
+            <img src="https://rukminim2.flixcart.com/image/704/844/xif0q/lip-liner/t/m/k/waterproof-professional-multicolored-matte-lip-liner-luster-original-imahegzqyd78fqmt.jpeg?q=90&crop=false"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Lip Tint</h2>
+            <img src="https://cdn.shopify.com/s/files/1/0506/4792/4918/files/a_1.jpg?v=1734953703" alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+        <div class="card">
+            <h2 class="title">Liquid Lipstick</h2>
+            <img src="https://marscosmetics.in/cdn/shop/files/8.1.jpg?v=1709794451" alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+    </div>
+
+    <h1 id="nails">Nails Products!!!</h1>
+    <div class="container-fluid">
+        <div class="card">
+            <h2 class="title">Nail Polish</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJE-ncf29gBxf932u9qSTZUjVl3JM3rcdLmA&s"
+                alt="">
+            <br>
+            <span style="color: red;">33% off</span> - $24,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Nail Care</h2>
+            <img src="https://static.wixstatic.com/media/28d39c_39fee459703c4ddcb33b511055322794~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/28d39c_39fee459703c4ddcb33b511055322794~mv2.jpg"
+                alt="">
+            <br>
+            <span style="color: red;">45% off</span> - $33,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+
+        <div class="card">
+            <h2 class="title">Nail Art Kits</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMdkQYgApmZMRbjbJtNyFF00DLMFVO5rRmQ&s"
+                alt="">
+            <br>
+            <span style="color: red;">19% off</span> - $20,000
+            <p>This is a super car. <br> GO FOR IT!!!!</p>
+            <button class="btn">+1 to Cart</button>
+        </div>
+    </div>
+
+    <div class="clear-btn">
+        <button onclick="localStorage.removeItem('cart'); alert('Cart cleared!'); location.reload();">Clear
+            Cart</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Load cart from localStorage or start fresh empty array
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+        function parsePrice(priceText) {
+            return Number(priceText.replace(/[$,]/g, ""));
+        }
+
+        document.querySelectorAll(".card button").forEach((button) => {
+            button.addEventListener("click", () => {
+                const card = button.closest(".card");
+                const name = card.querySelector(".title").innerText.trim();
+
+                // Get price text after the discount <span>
+                const priceSpan = card.querySelector("span");
+                let priceText = "";
+                if (priceSpan && priceSpan.nextSibling) {
+                    priceText = priceSpan.nextSibling.textContent.trim();
+                }
+
+                // Extract price like "$24,000"
+                const priceMatch = priceText.match(/\$\d[\d,]*/);
+                const price = priceMatch ? parsePrice(priceMatch[0]) : 0;
+
+                // Check if item already in cart, then update quantity, else add
+                const existingItem = cart.find((item) => item.name === name);
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({ name, price, quantity: 1 });
+                }
+
+                // Save updated cart to localStorage
+                localStorage.setItem("cart", JSON.stringify(cart));
+
+                // Calculate total
+                const total = cart.reduce(
+                    (sum, item) => sum + item.price * item.quantity,
+                    0
+                );
+
+                // Show cart summary in alert
+                let cartSummary = "Cart:\n";
+                cart.forEach((item) => {
+                    cartSummary += `${item.name} - $${item.price.toLocaleString()} x ${item.quantity}\n`;
+                });
+                cartSummary += `\nTotal: $${total.toLocaleString()}`;
+                alert(cartSummary);
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
